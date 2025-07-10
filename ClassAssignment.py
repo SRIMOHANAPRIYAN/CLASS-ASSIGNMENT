@@ -16,7 +16,6 @@ class ClassAssignment():
         print("Natural Language Processing")
         mess="Natural Language Processing"
         return mess
-    subfields()
 
     def oddEven():
         num=int(input("Enter a number:"))
@@ -27,8 +26,7 @@ class ClassAssignment():
             print(f"{num} is odd number")
             mess=f"{num} is odd number"
             return mess
-    oddEven()
-
+    
     def MarriageEligibility():
         gender = input("Your gender: ")
         age = int(input("Your age: "))
@@ -64,20 +62,24 @@ class ClassAssignment():
         print("Percentage: ",percentage)
         message="Percentage: ",percentage
         return message
-    FindPercentage()
-
+    
     def triangle():
         Height=int(input("Height:"))
         Weight=int(input("Weight:"))
         print("Area formula :(Height*Weight)/2")
+        message="Area formula :(Height*Weight)/2"
         mull=(Height*Weight)/2
         print("Area of triangle:",mull)
+        message="Area of triangle:",mull
         Height1=int(input("Height1:"))
         Height2=int(input("Height2:"))
         Breath=int(input("Breath:"))
         print("perimeter formula: Height1+Height2+Breath")
+        message="perimeter formula: Height1+Height2+Breath"
         total=Height1+Height2+Breath
         print("perimeter of triangle:",total)
-    triangle()
+        message="perimeter of triangle:",total
+        return message
+    
 
     
